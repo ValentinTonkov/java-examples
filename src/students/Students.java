@@ -5,7 +5,12 @@ import java.util.Scanner;
 public class Students {
 
     public static void main(String[] args) {
-        // __ __ __ __
+
+
+        Person person = new Person();
+
+
+
         Person[] people = new Person[5];
         Scanner sc = new Scanner(System.in);
         for (int i = 0; i < 5; i++) {
